@@ -1,7 +1,15 @@
-/* TODO: change to font face */
-@import url(https://fonts.google.com/specimen/Young+Serif); 
-@import url(https://fonts.google.com/specimen/Outfit);
+/* Fonts */
+@font-face {
+    font-family: 'Young Serif'; 
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Outfit'; 
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-style: normal;
+}
 
 /* Define color and typography variables */
 :root {
@@ -46,9 +54,12 @@ body {
     background-color: var(--white);
 }
 
+h1, h2 {
+    font-family: var(--font-heading); 
+}
+
 h1 {
   color: var(--stone-900);
-  font-family: var(--font-heading);
   font-weight: var(--font-weight-bold);
 }
 
