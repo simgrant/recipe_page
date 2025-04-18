@@ -1,0 +1,88 @@
+/* TODO: change to font face */
+@import url(https://fonts.google.com/specimen/Young+Serif); 
+@import url(https://fonts.google.com/specimen/Outfit);
+
+
+/* Define color and typography variables */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  --font-body: 'Outfit', sans-serif;
+  --font-heading: 'Young Serif', serif;
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-size-paragraph: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--stone-100);
+}
+
+/* General styles */
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-paragraph);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: var(--stone-900);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+h1 {
+  color: var(--stone-900);
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Attribution styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  body {
+    margin: 40px;  
+    }
+    .container {
+        max-width: 742px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: var(--white);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
