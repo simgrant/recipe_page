@@ -100,7 +100,6 @@ p {
     font-size: 20px;
     color: var(--rose-800);  
     font-weight: var(--font-weight-semi-bold);
-    /* margin-bottom: 20px; */
 }
 
 ul.custom-list {
@@ -141,8 +140,13 @@ ul.custom-list {
     font-weight: var(--font-weight-semi-bold);
 }
 
-.instructions {
+.instructions,
+.nutrition {
     padding: 30px 0;
+}
+
+p.nutrition {
+    text-align: justify;
 }
 
 .instruction-list {
@@ -175,7 +179,6 @@ ul.custom-list {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
 }
 
 table td {
