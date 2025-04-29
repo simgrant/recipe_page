@@ -55,7 +55,7 @@ body {
     background-color: var(--white);
     min-width: 375px;
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 5px;
 }
 
 img {
@@ -66,12 +66,14 @@ img {
 }
 
 .recipe {
-    margin: 38px 35px;
+    margin: 32px;
 }
+
 
 h1, h2 {
     font-family: var(--font-heading); 
     color: var(--stone-900);
+    font-weight: var(--font-weight-regular);
 }
 
 h1 {
@@ -120,7 +122,7 @@ ul.custom-list {
 .custom-list>li {
     position: relative;
     padding-left: 2.6em;
-    margin: 0 0 12px;
+    margin: 0 0 8px;
 }
 
 .custom-list>li:last-child {
@@ -141,6 +143,7 @@ ul.custom-list {
 .instructions,
 .nutrition {
     padding: 28px 0;
+    margin-right: 5px;
 }
 
 .instruction-list {
@@ -196,6 +199,14 @@ tr.divider td {
     border: none;
 }
 
+.nutrition {
+    padding-bottom: 0;
+}
+
+.nutrition > p {
+    margin-bottom: 20px;
+}
+
 .nutrition-facts {
     color: var(--rose-800);  
     font-weight: var(--font-weight-semi-bold);
@@ -217,9 +228,17 @@ tr.divider td {
   text-decoration: underline;
 }
 
-@media (min-width: 600px) {
+/* Media Queries */
+
+@media (max-width: 700px ) {
+    .attribution {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
   body {
-    margin: 40px;  
+    margin: 123px;  
     font-size: var(--font-size-paragraph);
     }
 
@@ -229,11 +248,19 @@ tr.divider td {
     }
 
     .container {
-        max-width: 660px;
+        max-width: 735px;
         margin: 0 auto;
         padding: 40px;
         background-color: var(--white);
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .recipe {
+        margin: 30px 0 0;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }
