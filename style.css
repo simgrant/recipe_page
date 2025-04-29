@@ -95,7 +95,7 @@ p {
 .prep-time {
     background-color: var(--rose-50);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 #prep-time-label {
@@ -244,7 +244,7 @@ tr.divider td {
 
     img {
         width: 100%;
-        border-radius: 8px;
+        border-radius: 12px;
     }
 
     .container {
@@ -252,7 +252,7 @@ tr.divider td {
         margin: 0 auto;
         padding: 40px;
         background-color: var(--white);
-        border-radius: 10px;
+        border-radius: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
