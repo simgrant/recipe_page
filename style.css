@@ -216,7 +216,7 @@ tr.divider td {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .attribution a {
@@ -228,9 +228,9 @@ tr.divider td {
   text-decoration: underline;
 }
 
-/* Media Queries */
 
-@media (max-width: 700px ) {
+/* Media Queries */
+@media (max-width: 768px ) {
     .attribution {
         display: none;
     }
@@ -238,7 +238,7 @@ tr.divider td {
 
 @media (min-width: 700px) {
   body {
-    margin: 123px;  
+    margin: 100px;  
     font-size: var(--font-size-paragraph);
     }
 
