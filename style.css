@@ -264,4 +264,8 @@ tr.divider td {
         font-size: 40px;
         margin-bottom: 21px;
     }
+
+    .prep-time {
+        padding: 25px;
+    }
 }
