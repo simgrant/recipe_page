@@ -237,7 +237,7 @@ tr.divider td {
 
 @media (min-width: 700px) {
   body {
-    margin: 125px 0;  
+    margin: 130px 0;  
     font-size: var(--font-size-paragraph);
     }
 
@@ -247,9 +247,9 @@ tr.divider td {
     }
 
     .container {
-        max-width: 735px;
+        max-width: 740px;
         margin: 0 auto;
-        padding: 40px;
+        padding: 43px;
         background-color: var(--white);
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
