@@ -238,7 +238,7 @@ tr.divider td {
 
 @media (min-width: 700px) {
   body {
-    margin: 130px 0;  
+    margin: 150px 0;  
     font-size: 17px;
     }
 
@@ -275,6 +275,13 @@ tr.divider td {
 
     .prep-time {
         padding: 25px;
+    }
+
+    .ingredients,
+    .instructions,
+    .nutrition {
+    padding: 20px 0;
+    margin-right: 5px;
     }
 
     td:not(.divider) {
