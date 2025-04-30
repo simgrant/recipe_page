@@ -248,7 +248,7 @@ tr.divider td {
     }
 
     .container {
-        max-width: 775px;
+        max-width: 743px;
         margin: 0 auto;
         padding: 40px;
         background-color: var(--white);
@@ -267,6 +267,10 @@ tr.divider td {
 
     h2 {
         font-size: 30px;
+    }
+
+    p {
+        font-size: var(--font-size-paragraph);
     }
 
     .prep-time {
