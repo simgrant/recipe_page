@@ -272,4 +272,8 @@ tr.divider td {
     .prep-time {
         padding: 25px;
     }
+
+    td:not(.divider) {
+        padding: 10px 35px;
+    }
 }
