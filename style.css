@@ -239,7 +239,7 @@ tr.divider td {
 @media (min-width: 700px) {
   body {
     margin: 130px 0;  
-    font-size: var(--font-size-paragraph);
+    font-size: 17px;
     }
 
     img {
@@ -250,7 +250,7 @@ tr.divider td {
     .container {
         max-width: 740px;
         margin: 0 auto;
-        padding: 43px;
+        padding: 35px;
         background-color: var(--white);
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -263,6 +263,10 @@ tr.divider td {
     h1 {
         font-size: 40px;
         margin-bottom: 21px;
+    }
+
+    h2 {
+        font-size: 28px;
     }
 
     .prep-time {
