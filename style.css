@@ -238,7 +238,7 @@ tr.divider td {
 
 @media (min-width: 700px) {
   body {
-    margin: 150px 0;  
+    margin: 160px 0;  
     font-size: 17px;
     }
 
@@ -285,6 +285,6 @@ tr.divider td {
     }
 
     td:not(.divider) {
-        padding: 10px 35px;
+        padding: 10px 32px;
     }
 }
